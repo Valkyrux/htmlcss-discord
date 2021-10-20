@@ -188,14 +188,41 @@ main .row:last-child {
 }
 
 .end-jumbo {
+    width: 70%;
+    margin: auto;
     text-align: center;
     padding: 1em 0 3em;
 }
 
-.end-jumbo h2 {
-    font-size: 2em;
-    margin: 1em 0;
+.end-jumbo .end-header {
+    width: 82%;
+    margin: auto;
+    margin-top: 2em;
 }
+
+
+.end-header h2 {
+    font-size: 2em;
+    margin-bottom: 0.9em;
+}
+
+.end-header p {
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+.end-header img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.end-jumbo > p {
+    font-weight: bold;
+}
+
+
+
+
 
 .end-jumbo .btn{
     background-color: #8EA1E1;
